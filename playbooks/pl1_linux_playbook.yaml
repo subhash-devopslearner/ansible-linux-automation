@@ -1,0 +1,10 @@
+- name: Linux automation plays
+  hosts: pl1_linux_hosts
+  
+  tasks:
+    - name: Ping my hosts
+      ansible.builtin.ping:
+
+  vars:
+    ansible_user: ladmin
+
